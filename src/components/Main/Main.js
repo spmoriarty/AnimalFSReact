@@ -1,13 +1,13 @@
 import React from 'react';
 import './Main.css';
 import backgroundImage from '../../background.png';
-import Animal from '../../Animal';
+import Animal from '../Animal';
 
 
 
 
 
-export default function Main({ animals }) {
+export default function Main() {
   return ( 
     <main className= 'background' style={{ backgroundImage: `url(${ backgroundImage })` }}>;
 
