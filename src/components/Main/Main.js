@@ -5,13 +5,13 @@ import Animal from '../Animal';
 
 
 
-
+// whats up
 
 export default function Main() {
   return ( 
     <main className= 'background' style={{ backgroundImage: `url(${ backgroundImage })` }}>;
 
-      {animals.map((animal, i) => <Animal key={animal.name + i} {...animal} />)}
+      {Animal.map((animal, i) => <Animal key={animal.name + i} {...animal} />)}
 
     </main>
 
