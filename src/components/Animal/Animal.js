@@ -6,7 +6,7 @@ export default function Animal({ name, type, says }) {
       <h1>{name}</h1>
       <p>{type}</p>
       <p>{says}</p>
-      {/* <img src = {`/images/${name}.png`} /> */}
+      <img src = {`/animals/${type}.svg`} />
     </div>);
 }
 
