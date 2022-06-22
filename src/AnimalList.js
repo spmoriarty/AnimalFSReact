@@ -1,6 +1,6 @@
 import React from 'react';
 import Animal from './components/Animal/Animal';
-import backgroundImage from '../../background.png';
+import backgroundImage from './background.png';
 
 export default function animalList({ animals }) {
   return (

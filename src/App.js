@@ -11,10 +11,11 @@ import Main from './components/Main/Main';
 
 
 function App() {
+  console.log(animals);
   return (
     <div className="App">
       <Header greeting='Welcome to Not Orwell Farm' />
-      <Main animals={ animals }/>
+      <Main animals={animals}/>
       <Footer email='spmoriarty1@gmail.com'/>
     </div>
   );

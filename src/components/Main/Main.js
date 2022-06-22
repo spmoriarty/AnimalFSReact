@@ -1,7 +1,7 @@
 
 import './Main.css';
 
-import animalList from '../../AnimalList';
+import AnimalList from '../../AnimalList';
 
 
 
@@ -9,8 +9,9 @@ import animalList from '../../AnimalList';
 
 export default function Main({ animals }) {
   return ( 
-    animalList(animals)
+    <AnimalList animals={animals}/>
 
   );
 }
+
 
