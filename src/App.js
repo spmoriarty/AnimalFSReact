@@ -11,7 +11,7 @@ import Main from './components/Main/Main';
 
 
 function App() {
-  console.log(animals);
+  
   return (
     <div className="App">
       <Header greeting='Welcome to Not Orwell Farm' />
